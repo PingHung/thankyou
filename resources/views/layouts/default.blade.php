@@ -5,18 +5,20 @@
 
 <body>
 
-<header class="container">
-    @include('includes.menu')
-</header>
-<main role="main">
-    @yield('content')
-</main>
+<dir class="container">
+    <header>
+        @include('includes.menu')
+    </header>
 
-@include('includes.jsfooter')
+    <main role="main">
+        @yield('content')
+    </main>
 
-<footer>
-    @include('includes.footer')
-</footer>
+    @include('includes.jsfooter')
 
+    <footer>
+        @include('includes.footer')
+    </footer>
+</dir>
 </body>
 </html>
