@@ -8,7 +8,7 @@
 
         <div class="card-body">
 
-            <form action="/contact" method="post">
+            <form method="post" action="{{route('contact.store')}}">
                 @csrf
                 <div class="form-group">
                     <label for="email">Email address</label>
