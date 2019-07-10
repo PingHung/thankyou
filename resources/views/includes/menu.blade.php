@@ -16,6 +16,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('contact')}}">Contact</a>
             </li>
+            <li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('thanks',['name' => 'IS601'])}}">Thanks</a>
+            </li>
         </ul>
 
     </div>
